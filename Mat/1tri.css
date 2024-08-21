@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/fundo-mat.jpg);
+    background-size: cover;
+    
+}
+
+
+.texto{
+
+    margin-left: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: azure;
+    
+}
+
+
+.atividade-h{
+    margin-bottom: 10em;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 34vh;
+    top: 4em;
+    background-size: cover;
+}
+
+.atividade-h img{
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 7em;
+ }
+
+.HH2{
+    width: 80%;
+    margin-left: 12%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    }
+
+.HH2 p{
+margin-bottom: 10px;
+font-family: fantasy;
+font-size: 20px;
+font-weight: 100;
+
+}

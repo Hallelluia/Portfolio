@@ -1,0 +1,77 @@
+body{
+    background-image: url(../img/leaff.jpg);
+    background-size: cover;
+}
+.texto{
+
+    margin-left: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: azure;
+    
+}
+
+.atividade-h{
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 04vh;
+    top: 10vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.atividade-h2{
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 15vh;
+    top: 10vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.HH2{
+    margin-left: 6em;
+    width: 50%;
+    font-family: cursive;
+    color: aliceblue;
+    
+    }
+
+    
+
+.HH2 p{
+    margin-top: 2em;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 80;
+    text-align: justify;
+
+}
+
+
+.HH22{
+    margin-left: 9em;
+    width: 50%;
+    font-family: cursive;
+    color: aliceblue;
+    
+    }
+
+    
+
+.HH22 p{
+    margin-top: 2em;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 80;
+    text-align: justify;
+
+}
+

@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Glitch;
+    src: url(../fonts/Doctor\ Glitch.otf); 
+}
+
+
+/* greek */
+@font-face {
+    font-family: 'Mine';
+    src: url(../fonts/Minecrafter.Alt.ttf) 
+  }
+
+
+
+
+
+
+
+
+body{
+    background-image: url(../img/fundo-hum.jpg);
+    background-size: cover;
+    
+}
+
+
+    button{
+    
+    margin: 20px;
+    
+    }
+
+    .texto{
+        color: #fff;
+        font-family: Mine;
+        margin: 0 5px;
+        letter-spacing: 4px;
+        margin-left: 15px;
+        
+        
+    }
+    
+    /* CSS */
+    .buttonss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+    }
+
+
+
+    .rpgui-button {
+        /* hide button default stuff */
+        cursor: pointer;
+        color: rgb(70, 19, 19);
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        overflow: hidden;
+        outline: none;
+        /* background */
+        background: url("../img/button.png") no-repeat no-repeat;
+        background-clip: padding-box;
+        background-origin: padding-box;
+        background-position: center;
+        background-size: 100% 100%;
+        /* font size */
+        font-size: 1.3em;
+        font-family: Mine;
+
+        /* default size and displa  y */
+        text-transform: uppercase;
+        max-width: 100%;
+        min-width: 140px;
+        height: 60px;
+        display: inline-block;
+        /* padding */
+        padding-left: 35px;
+        padding-right: 35px; }
+      
+      /* button hover */
+      .rpgui-button.hover,
+      .rpgui-button:hover {
+        background-image: url("../img/button-hover.png"); }
+      
+      /* button clicked */
+      .rpgui-button.down,
+      .rpgui-button:active {
+        background-image: url("../img/button-down.png"); }
+      
+
+
+
+
+
+    .glow-on-hover {
+        width: 130px;
+        height: 60px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+    }
+    
+    .glow-on-hover:before {
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: -2px;
+        left:-2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+    }
+    
+    .glow-on-hover:active {
+        color: #000
+    }
+    
+    .glow-on-hover:active:after {
+        background: transparent;
+    }
+    
+    .glow-on-hover:hover:before {
+        opacity: 1;
+    }
+    
+    .glow-on-hover:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+    }
+    
+    @keyframes glowing {
+        0% { background-position: 0 0; }
+        50% { background-position: 400% 0; }
+        100% { background-position: 0 0; }
+    }

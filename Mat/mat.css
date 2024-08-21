@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Glitch;
+    src: url(../fonts/Doctor\ Glitch.otf); 
+}
+body{
+    background-image: url(../img/fundo-mat.jpg);
+    background-size: cover;
+    
+}
+
+
+    button{
+    
+    margin: 20px;
+    
+    }
+
+    .texto{
+        color: #fff;
+        font-family: Glitch;
+        font-weight: lighter;
+        margin: 0 5px;
+        letter-spacing: 4px;
+        margin-left: 15px;
+        
+        
+    }
+    
+    /* CSS */
+    .buttonss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+        background-color: none;
+    }
+    
+    .button_slide {
+        color: #000000;
+        border: 2px solid rgb(90, 90, 90);
+        border-radius: 0px;
+        padding: 18px 36px;
+        display: inline-block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+      }
+
+      .slide_left:hover {
+        box-shadow: inset 0 0 0 50px #929292;
+      }

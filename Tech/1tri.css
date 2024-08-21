@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Glitch;
+    src: url(../fonts/Doctor\ Glitch.otf); 
+}
+
+body{
+    background-image: url(../img/fundo-tecnico.jpg);
+    background-size: cover;
+}
+
+
+.texto{
+
+    margin-left: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: azure;
+    
+}
+
+
+.atividade-h{
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 04vh;
+    top: 10vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.atividade-h2{
+    margin-bottom: 10em;
+    width: 80vw;
+    height: 40vw;
+    border-radius: 0px;
+    position: relative;
+    left: 04vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.atividade-h2 img{
+    border-radius: 20px;
+    width: 100%;
+ }
+
+ 
+.HH2{
+    margin-left: 3em;
+    width: 50%;
+    font-family: cursive;
+    color: aliceblue;
+    
+    }
+
+    
+
+.HH2 p{
+margin-top: 2em;
+font-family: cursive;
+font-size: 20px;
+font-weight: 80;
+text-align: justify;
+
+}
+
+.barra{
+    width: 100%;
+    height: 100px;
+    background-image: url(..//img/fundo-tecnico.jpg);
+    border-color: rgb(61, 135, 201);
+    border-radius: 10px;
+    text-align: center;
+    font-family: Glitch;
+    color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#doc1{
+    width: 100%;
+    margin-bottom: 5%;
+}
+

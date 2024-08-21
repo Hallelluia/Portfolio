@@ -1,0 +1,126 @@
+@font-face {
+    font-family: BoldGoth;
+    src: url(../fonts/NanumGothic-Regular.ttf);
+    
+}
+
+body{
+    background-image: url(../img/leaff.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+.texto{
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: azure;
+    
+}
+
+
+.dino:hover{
+    transform: scale(1.02);
+    transition: .4s;
+}
+
+
+.organica :hover{
+    transform: scale(1.02);
+    transition: .4s;
+}
+
+
+
+
+
+.vegeta:hover{
+    transform: scale(1.02);
+    transition: .4s;
+}
+
+
+.circuito:hover{
+    transform: scale(1.02);
+    transition: .4s;
+}
+
+
+.atividade-h{
+    margin-bottom: 10em;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 34vh;
+    top: 4em;
+
+}
+.atividade-h1{
+    margin-bottom: 10em;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 34vh;
+    top: 4em;
+
+}
+.atividade-h2{
+    margin-bottom: 10em;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 34vh;
+    top: 4em;
+
+}
+.atividade-h3{
+    width: 60vw;
+    height: 40vw;
+    border-radius: 30px;
+    position: relative;
+    left: 34vh;
+
+}
+.atividade-h img{
+   border-radius: 20px;
+    margin-left: 1em;
+}
+.atividade-h1 img{
+   border-radius: 20px;
+    margin-left: 1em;
+}
+.atividade-h2 img{
+    width: 80%;
+   border-radius: 20px;
+    margin-left: 1em;
+}
+.atividade-h3 img{
+   width: 58em;
+    border-radius: 20px;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+
+
+.HH2{
+    width: 95%;
+    margin-left: 2%;
+
+    font-family:BoldGoth;
+    color: aliceblue;
+}
+
+.HH2 p{
+margin-bottom: 10px;
+font-family: fantasy;
+font-size: 20px;
+font-weight: 100;
+
+}
